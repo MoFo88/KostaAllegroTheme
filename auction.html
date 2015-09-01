@@ -4,9 +4,179 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <title>Aukcja | Kosta-Metal</title>
-  <link rel="stylesheet" id="all-css" href="./auction.css" type="text/css" media="all">
   <style type="text/css">
+    body {
+      margin: 0;
+      text-align: center;
+    }
 
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #e96656;
+    }
+
+    div.background-mask {
+      background-color: rgba(0, 0, 0, 0.5);
+      width: 100%;
+      font-family: sans-serif;
+    }
+
+    div.background-white {
+      background-color: #fff;
+      width: 100%;
+      font-family: sans-serif;
+    }
+
+    div.background-grey {
+      background-color: #272727;
+      width: 100%;
+      font-family: sans-serif;
+    }
+
+    div.auction-width {
+      width: 1000px;
+      margin: 0 auto;
+    }
+
+    div.header {
+      background-image: url(./images/background.jpg);
+      background-position: bottom center !important;
+      background-attachment: fixed !important;
+      text-align: left;
+    }
+
+    div.header.about-me-header {
+      text-align: center;
+    }
+
+    div.header .navbar {
+      padding: 15px 0;
+    }
+
+    div.header .logo {
+      height: 150px;
+    }
+
+    div.links {
+      width: 250px;
+      float: right;
+      margin-top: 25px;
+    }
+
+    div.links a {
+      font-size: 18px;
+      display: block;
+      width: 95%;
+      text-align: left;
+      line-height: 24px;
+    }
+
+    div.body {
+      text-align: left;
+    }
+
+    div.body .contents {
+      padding: 0 15px;
+    }
+
+    div.body .contents .partners {
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    div.body .contents .partners img {
+      max-height: 48px;
+    }
+
+    div.body .two-columns {
+      margin-bottom: 10px;
+      overflow: hidden;
+    }
+
+    div.body .two-columns .column {
+      padding-bottom: 100%;
+      margin-bottom: -100%;
+    }
+
+    div.body .two-columns .column.left {
+      float: left
+    }
+
+    div.body .two-columns .column.right {
+      float: right
+    }
+
+    div.body .vendor-info {}
+
+    div.body .vendor-info .vendor-info-section {
+      background-color: #272727;
+      width: 230px;
+      color: #fff;
+      margin-bottom: 10px;
+      padding: 10px 10px 20px;
+    }
+
+    div.body .vendor-info .vendor-info-section:last-child {
+      margin: 0;
+    }
+
+    div.body .vendor-info .vendor-info-section .vendor-info-title {
+      padding: 8px 0;
+      font-size: 18px;
+    }
+
+    div.body .vendor-info .vendor-info-section .vendor-info-text {
+      font-size: 14px;
+      color: #939393;
+    }
+
+    div.body .auction-details {
+      width: 680px;
+      padding: 18px 10px;
+      color: #404040;
+      font-size: 14px;
+    }
+
+    div.body .auction-details.full {
+      clear: both;
+      width: 950px;
+    }
+
+    div.body .about-me-contents {
+      padding: 18px 10px;
+      color: #404040;
+      font-size: 14px;
+      clear: both;
+      width: 860px;
+      margin: auto;
+    }
+
+    div.footer {
+      clear: both;
+      min-height: 150px;
+      color: #939393;
+    }
+
+    div.footer .company-details {
+      width: 33%;
+      float: left;
+    }
+
+    div.footer .company-details .company-details-icon {
+      margin: 25px 0 20px 0;
+    }
+
+    div.footer a {
+      color: #939393;
+    }
+
+    div.footer a:hover {
+      color: #fff;
+    }
   </style>
 </head>
 
