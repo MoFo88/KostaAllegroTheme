@@ -1,7 +1,4 @@
 body {
-  background-image: url(./images/background.jpg);
-  background-position: bottom center !important;
-  background-attachment: fixed !important;
   margin: 0;
   text-align: center;
 }
@@ -32,8 +29,16 @@ div.auction-width {
   margin: 0 auto;
 }
 div.header {
-  padding: 15px 0;
+  background-image: url(./images/background.jpg);
+  background-position: bottom center !important;
+  background-attachment: fixed !important;
   text-align: left;
+}
+div.header.about-me-header {
+  text-align: center;
+}
+div.header .navbar {
+  padding: 15px 0;
 }
 div.header .logo {
   height: 150px;
@@ -100,11 +105,19 @@ div.body .auction-details {
   width: 680px;
   padding: 18px 10px;
   color: #404040;
-  font-size: 14px
+  font-size: 14px;
 }
 div.body .auction-details.full {
   clear: both;
   width: 950px;
+}
+div.body .about-me-contents {
+  padding: 18px 10px;
+  color: #404040;
+  font-size: 14px;
+  clear: both;
+  width: 860px;
+  margin: auto;
 }
 div.footer {
   clear: both;
